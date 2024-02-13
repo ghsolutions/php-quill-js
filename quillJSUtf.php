@@ -4,7 +4,7 @@
  * @version 1.0 (Quill 2.0))
  * @copyright gh-solutions 2024
  */
-class quillJSUtf
+class quillJS
 {
     public $jsPath;
     public $cssPath;
