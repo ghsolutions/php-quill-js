@@ -11,8 +11,8 @@ class quillJSUtf
 
     public function __construct($jsPath, $cssPath)
     {
-        $this->jsPath = urlencode($jsPath);
-        $this->cssPath = urlencode($cssPath);
+        $this->jsPath = $jsPath;
+        $this->cssPath = $cssPath;
     }
 
     public function setCss()
@@ -20,20 +20,11 @@ class quillJSUtf
         return '<link rel="stylesheet" href="' . $this->cssPath . 'quill/quill.snow.css" />';
     }
 
-    public function setInlkineCss()
+    public function setInlkineCss($minHeight = '200px')
     {
-//        return '<style>'
-//            . '.standalone-container {'
-//            . 'margin: 50px auto;'
-//            . 'max-width: 720px;'
-//            . '}'
-//            . '.ql-editor{'
-//            . 'min-height:500px;'
-//            . '}'
-//            . '</style>';
         return '<style>'
             . '.ql-editor{'
-            . 'min-height:200px;'
+            . 'min-height:'.$minHeight.';'
             . '}'
             . '</style>';
     }
@@ -49,8 +40,8 @@ class quillJSUtf
         return "modules: { toolbar: [\n"
             . "['bold', 'italic', 'underline'],\n"
             . "[{ 'list': 'ordered'}, { 'list': 'bullet' }],\n"
-            . "//          [{ 'header': [1, 2, 3, 4, 5, 6, false] }],\n"
-            . "//          [{ 'color': [] }, { 'background': [] }],\n"
+            . "[{ 'header': [1, 2, 3, 4, 5, 6, false] }],\n"
+            . "[{ 'color': [] }, { 'background': [] }],\n"
             . "[{ 'align': [] }],\n"
             . "]},\n"
             . "theme: 'snow'\n";
