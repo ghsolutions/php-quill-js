@@ -23,3 +23,11 @@ https://github.com/tangien/quilljs-textarea?cmdf=quill-textarea.js
 and deployed to the directiory for JavaScript-files **js**
 
 Now we can implement the quill editor with few handles.
+
+```
+
+
+
+
+
+```
