@@ -1,2 +1,2 @@
 # php-quill-js
-PHP Wrapper to implement Quill JS in your app
+PHP Wrapper to easy implement Quill JS in your app
