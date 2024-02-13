@@ -1,10 +1,6 @@
 <?php
 require_once 'quillJS.php';
 $quillJs = new quillJS('./js/','./js/');
-//if(isset($_POST)){
-//    echo '<pre>';
-//    var_dump($_POST);
-//}
 ?>
 <!DOCTYPE html>
 <html lang="en">
