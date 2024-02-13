@@ -14,12 +14,12 @@ npm install package.json
 node ./postinstall.js
 ```
 
-Um auch Textarea Felder mit Quill unterstützen zu können, muss zusätzliche die JavaScript-Datei 'quill-textarea.js' von 
+In order to be able to support text area fields with Quill, the JavaScript file 'quill-textarea.js' must also be installed from 
 
 ```
 https://github.com/tangien/quilljs-textarea?cmdf=quill-textarea.js
 ```
 
-hernutergeladen und in das Javascript-Verzeichnis **js** gelegt werden.
+and deployed to the directiory for JavaScript-files **js**
 
-Jetzt kann man den Quill-Texteditor mit wenigen handgriffen in eigene Scripts einbinden.
+Now we can implement the quill editor with few handles.
