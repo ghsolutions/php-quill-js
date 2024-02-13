@@ -21,3 +21,5 @@ https://github.com/tangien/quilljs-textarea?cmdf=quill-textarea.js
 ```
 
 hernutergeladen und in das Javascript-Verzeichnis **js** gelegt werden.
+
+Jetzt kann man den Quill-Texteditor mit wenigen handgriffen in eigene Scripts einbinden.
