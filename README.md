@@ -59,3 +59,4 @@ echo $quillJs->setEditor();
 </body>
 </html>
 ```
+@copyright gh-solutions 2024
